@@ -86,18 +86,18 @@
 import torch
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = torch.hub.load("valeoai/NAF", "naf", pretrained=True, device=device)
-model.eval()
+NAF = torch.hub.load("valeoai/NAF", "naf", pretrained=True, device=device)
+NAF.eval()
 
-# High-resolution image (B,3,H,W)
+# High-resolution image (B, 3, H, W)
 image = ...
-# Low-resolution features (B,C,h,w)
+# Low-resolution features (B, C, h, w)
 lr_features = ...   
 # Desired output size (H_o, W_o)
 target_size = ...                                
 
-# High-resolution features (B,C,H_o,W_o)
-upsampled = model(image, lr_features, target_size)
+# High-resolution features (B, C, H_o, W_o)
+upsampled = NAF(image, lr_features, target_size)
 ```
 
 
