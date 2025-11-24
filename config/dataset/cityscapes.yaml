@@ -1,0 +1,6 @@
+_target_: evaluation.dataset.cityscapes.CityscapesDataset
+tag: "cityscapes" 
+root: ${dataroot}/cityscapes 
+split: "train"
+include_labels: True
+num_classes: 19  

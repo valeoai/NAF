@@ -1,0 +1,4 @@
+defaults:
+  - train  
+dataset: ${dataset.val}
+batch_size: 16

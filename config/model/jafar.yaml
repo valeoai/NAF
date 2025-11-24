@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+
+_target_: src.model.JAFAR
+dim: 128
+v_dim: ${model.feature_dim}
+feature_dim: ${get_feature:${backbone.name}}
+kernel_size: 1
+num_heads: 4
+name: jafar

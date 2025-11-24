@@ -1,0 +1,6 @@
+_target_: evaluation.dataset.kitti360.KITTIDataset
+tag: "kitti360" 
+root: ${dataroot}/KITTI-360
+split: "train" 
+include_labels: true
+num_classes: 19

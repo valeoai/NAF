@@ -1,0 +1,5 @@
+_target_: src.model.JBU
+dim: 256
+radius: 5
+combine: False
+name: jbu

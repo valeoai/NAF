@@ -1,0 +1,5 @@
+_target_: src.model.FeatUp
+feature_dim: ${get_feature:${backbone.name}}
+backbone_name: ${backbone.name}
+name: featup
+ratio: 16

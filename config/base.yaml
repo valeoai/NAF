@@ -1,0 +1,30 @@
+defaults:
+  - backbone: base
+  - dataset: imagenet
+  - dataloader@train_dataloader: train
+  - dataloader@val_dataloader: val
+  - model: naf
+  - loss: base
+  - optimizer: adamw
+
+# General parameters
+epochs: 1
+train_steps: 25000
+dataroot: /datasets_local/
+
+model_ckpt: null
+
+use_bf16: True
+use_checkpointing: False
+use_scaler: False
+sanity: False
+
+# LR and HR image sizes
+img_size: 512
+target_size: ${img_size}
+down_factor: fixed
+
+# Hydra configuration
+hydra:
+  run:
+    dir: ./output/debug/${now:%Y-%m-%d}/${now:%H-%M-%S}  # Define the workdir

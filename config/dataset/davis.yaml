@@ -1,0 +1,4 @@
+_target_: evaluation.dataset.davis.DAVIS
+tag: "davis" 
+root: ${dataroot}/DAVIS
+split: "train"

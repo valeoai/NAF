@@ -1,0 +1,3 @@
+_target_: src.model.Nearest
+feature_dim: ${get_feature:${backbone.name}}
+name: nearest

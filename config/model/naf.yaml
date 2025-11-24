@@ -1,0 +1,16 @@
+defaults:
+  - _self_
+
+_target_: src.model.naf.NAF
+dim: 256
+heads_attn: 4
+heads_rope: 4
+kernel_size: 9
+
+# ImageEncoder options
+use_semencoder: true
+use_encoder: true
+img_layers: 2
+rope_rescale: 2
+
+name: naf

@@ -1,0 +1,5 @@
+_target_: src.model.IRCNN
+in_nc: 3
+out_nc: 3
+nc: 64
+name: ircnn

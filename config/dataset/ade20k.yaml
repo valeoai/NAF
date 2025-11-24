@@ -1,0 +1,7 @@
+_target_: evaluation.dataset.ade20k.ADE20KDataset
+tag: "ade20k"
+root: ${dataroot}/ADEChallengeData2016
+split: "train"
+skip_other_class: false
+file_set: null
+num_classes: 151

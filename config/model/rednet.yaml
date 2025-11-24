@@ -1,0 +1,5 @@
+_target_: src.model.REDNet
+num_layers: 15
+num_features: 64
+input_dim: 3
+name: dncnn

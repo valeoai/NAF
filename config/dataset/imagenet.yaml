@@ -1,0 +1,3 @@
+_target_: evaluation.dataset.image_dataset.ImageDataset
+root: ${dataroot}/ImageNet/train
+root_cache: null

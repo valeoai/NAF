@@ -1,0 +1,35 @@
+defaults:
+  - base
+  - _self_
+
+denoising:
+  noise_type: gaussian
+  noise_params:
+    std: 0.1
+    prob: 0.05
+    sigma: 1.0
+
+  loss:
+    l1_weight: 1.0
+    l2_weight: 5.0
+    ssim_weight: 0.2
+
+epochs: 1
+train_steps: 25000
+val_steps: 10000
+freq_viz: 2000
+
+train_dataloader:
+  batch_size: 4
+val_dataloader:
+  batch_size: 2
+
+img_size: 448
+
+use_bf16: True
+use_checkpointing: False
+use_scaler: True
+
+hydra:
+  run:
+    dir: ./output/debug/${now:%Y-%m-%d}/${now:%H-%M-%S}  

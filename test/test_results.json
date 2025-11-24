@@ -1,0 +1,580 @@
+[
+  {
+    "model": "FeatUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 2,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "74.09 MB",
+      "Average backward pass time": "14.882304 ms",
+      "Average forward pass time": "8.870912 ms",
+      "Peak GPU memory usage (forward)": "52.38 MB",
+      "GFLOPS": "0.98",
+      "# Params": "173540"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 2,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "719.75 MB",
+      "Average backward pass time": "38.561280 ms",
+      "Average forward pass time": "11.235226 ms",
+      "Peak GPU memory usage (forward)": "315.98 MB",
+      "GFLOPS": "7.74",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 2,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "5923.12 MB",
+      "Average backward pass time": "106.851736 ms",
+      "Average forward pass time": "57.254605 ms",
+      "Peak GPU memory usage (forward)": "604.26 MB",
+      "GFLOPS": "6.05",
+      "# Params": "628480"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 2,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "3670.42 MB",
+      "Average backward pass time": "88.292659 ms",
+      "Average forward pass time": "39.513908 ms",
+      "Peak GPU memory usage (forward)": "604.98 MB",
+      "GFLOPS": "4.14",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 4,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "284.56 MB",
+      "Average backward pass time": "22.538547 ms",
+      "Average forward pass time": "10.212659 ms",
+      "Peak GPU memory usage (forward)": "180.35 MB",
+      "GFLOPS": "4.88",
+      "# Params": "173540"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 4,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "1347.67 MB",
+      "Average backward pass time": "50.124697 ms",
+      "Average forward pass time": "18.281574 ms",
+      "Peak GPU memory usage (forward)": "400.47 MB",
+      "GFLOPS": "23.01",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 4,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "6525.77 MB",
+      "Average backward pass time": "124.415592 ms",
+      "Average forward pass time": "58.664141 ms",
+      "Peak GPU memory usage (forward)": "604.26 MB",
+      "GFLOPS": "23.22",
+      "# Params": "628480"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 4,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "3684.27 MB",
+      "Average backward pass time": "102.527796 ms",
+      "Average forward pass time": "40.170496 ms",
+      "Peak GPU memory usage (forward)": "604.98 MB",
+      "GFLOPS": "16.57",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 8,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "1099.72 MB",
+      "Average backward pass time": "45.861990 ms",
+      "Average forward pass time": "18.657178 ms",
+      "Peak GPU memory usage (forward)": "677.52 MB",
+      "GFLOPS": "20.50",
+      "# Params": "173540"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 8,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "4812.09 MB",
+      "Average backward pass time": "133.391360 ms",
+      "Average forward pass time": "51.705651 ms",
+      "Peak GPU memory usage (forward)": "1552.49 MB",
+      "GFLOPS": "84.11",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 8,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "8943.22 MB",
+      "Average backward pass time": "220.743989 ms",
+      "Average forward pass time": "64.862413 ms",
+      "Peak GPU memory usage (forward)": "1439.94 MB",
+      "GFLOPS": "91.87",
+      "# Params": "628480"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 8,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "4028.77 MB",
+      "Average backward pass time": "112.663655 ms",
+      "Average forward pass time": "42.510439 ms",
+      "Peak GPU memory usage (forward)": "604.98 MB",
+      "GFLOPS": "66.28",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "4929.11 MB",
+      "Average backward pass time": "171.858228 ms",
+      "Average forward pass time": "57.109504 ms",
+      "Peak GPU memory usage (forward)": "2673.83 MB",
+      "GFLOPS": "82.97",
+      "# Params": "173540"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18675.29 MB",
+      "Average backward pass time": "502.506192 ms",
+      "Average forward pass time": "181.956609 ms",
+      "Peak GPU memory usage (forward)": "6162.59 MB",
+      "GFLOPS": "328.50",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18613.05 MB",
+      "Average backward pass time": "489.506000 ms",
+      "Average forward pass time": "108.141977 ms",
+      "Peak GPU memory usage (forward)": "5410.94 MB",
+      "GFLOPS": "366.47",
+      "# Params": "628480"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "6016.48 MB",
+      "Average backward pass time": "163.075171 ms",
+      "Average forward pass time": "56.241766 ms",
+      "Peak GPU memory usage (forward)": "1786.52 MB",
+      "GFLOPS": "265.12",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 128,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "3292.90 MB",
+      "Average backward pass time": "117.686886 ms",
+      "Average forward pass time": "44.057805 ms",
+      "Peak GPU memory usage (forward)": "2558.69 MB",
+      "GFLOPS": "12.96",
+      "# Params": "41700"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 128,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18375.39 MB",
+      "Average backward pass time": "492.871991 ms",
+      "Average forward pass time": "179.089816 ms",
+      "Peak GPU memory usage (forward)": "6161.83 MB",
+      "GFLOPS": "246.65",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "embed_dim",
+    "embed_dim": 128,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18415.26 MB",
+      "Average backward pass time": "472.802716 ms",
+      "Average forward pass time": "103.970201 ms",
+      "Peak GPU memory usage (forward)": "5408.40 MB",
+      "GFLOPS": "285.80",
+      "# Params": "562688"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "embed_dim",
+    "embed_dim": 128,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "5139.84 MB",
+      "Average backward pass time": "132.395419 ms",
+      "Average forward pass time": "50.801562 ms",
+      "Peak GPU memory usage (forward)": "1197.75 MB",
+      "GFLOPS": "265.12",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "4926.61 MB",
+      "Average backward pass time": "168.519371 ms",
+      "Average forward pass time": "79.571660 ms",
+      "Peak GPU memory usage (forward)": "2673.83 MB",
+      "GFLOPS": "82.97",
+      "# Params": "173540"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18675.31 MB",
+      "Average backward pass time": "493.956909 ms",
+      "Average forward pass time": "182.373581 ms",
+      "Peak GPU memory usage (forward)": "6162.62 MB",
+      "GFLOPS": "328.50",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "embed_dim",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18613.05 MB",
+      "Average backward pass time": "495.504486 ms",
+      "Average forward pass time": "104.385638 ms",
+      "Peak GPU memory usage (forward)": "5410.18 MB",
+      "GFLOPS": "366.47",
+      "# Params": "628480"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "embed_dim",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "6016.48 MB",
+      "Average backward pass time": "151.195137 ms",
+      "Average forward pass time": "60.107775 ms",
+      "Peak GPU memory usage (forward)": "1786.52 MB",
+      "GFLOPS": "265.12",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 768,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "6611.20 MB",
+      "Average backward pass time": "236.789557 ms",
+      "Average forward pass time": "91.205427 ms",
+      "Peak GPU memory usage (forward)": "2848.23 MB",
+      "GFLOPS": "319.01",
+      "# Params": "617060"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 768,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "19123.01 MB",
+      "Average backward pass time": "495.348840 ms",
+      "Average forward pass time": "190.718669 ms",
+      "Peak GPU memory usage (forward)": "6163.74 MB",
+      "GFLOPS": "451.27",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "embed_dim",
+    "embed_dim": 768,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "18909.72 MB",
+      "Average backward pass time": "490.327139 ms",
+      "Average forward pass time": "130.610995 ms",
+      "Peak GPU memory usage (forward)": "5412.85 MB",
+      "GFLOPS": "487.47",
+      "# Params": "727168"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "embed_dim",
+    "embed_dim": 768,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "7487.63 MB",
+      "Average backward pass time": "201.987173 ms",
+      "Average forward pass time": "88.825344 ms",
+      "Peak GPU memory usage (forward)": "2669.67 MB",
+      "GFLOPS": "265.12",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "FeatUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 1024,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "9704.04 MB",
+      "Average backward pass time": "288.535754 ms",
+      "Average forward pass time": "115.101184 ms",
+      "Peak GPU memory usage (forward)": "2965.61 MB",
+      "GFLOPS": "563.72",
+      "# Params": "1076580"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "embed_dim",
+    "embed_dim": 1024,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "19421.91 MB",
+      "Average backward pass time": "541.674496 ms",
+      "Average forward pass time": "197.642342 ms",
+      "Peak GPU memory usage (forward)": "6164.90 MB",
+      "GFLOPS": "533.12",
+      "# Params": "878080"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "embed_dim",
+    "embed_dim": 1024,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "19107.51 MB",
+      "Average backward pass time": "491.764941 ms",
+      "Average forward pass time": "140.854272 ms",
+      "Peak GPU memory usage (forward)": "5414.63 MB",
+      "GFLOPS": "568.14",
+      "# Params": "792960"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "embed_dim",
+    "embed_dim": 1024,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 16,
+    "metrics": {
+      "Peak GPU memory usage (backward)": "8468.40 MB",
+      "Average backward pass time": "222.735052 ms",
+      "Average forward pass time": "104.489368 ms",
+      "Peak GPU memory usage (forward)": "3258.43 MB",
+      "GFLOPS": "265.12",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "AnyUp",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 32,
+    "metrics": {
+      "Average forward pass time": "744.272083 ms",
+      "Peak GPU memory usage (forward)": "24594.02 MB"
+    }
+  },
+  {
+    "model": "JAFAR",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 32,
+    "metrics": {
+      "Average forward pass time": "582.697070 ms",
+      "Peak GPU memory usage (forward)": "21285.80 MB"
+    }
+  },
+  {
+    "model": "NAF",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 448,
+    "lr_size": 28,
+    "ratio": 32,
+    "metrics": {
+      "Average forward pass time": "267.944962 ms",
+      "Peak GPU memory usage (forward)": "7101.49 MB",
+      "GFLOPS": "1060.49",
+      "# Params": "662528"
+    }
+  },
+  {
+    "model": "LargeImg",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 896,
+    "lr_size": 28,
+    "ratio": 2,
+    "metrics": {
+      "Average forward pass time": "110.051565 ms",
+      "Peak GPU memory usage (forward)": "0.00 MB",
+      "GFLOPS": "537.78",
+      "# Params": "85669632"
+    }
+  },
+  {
+    "model": "LargeImg",
+    "factor_swept": "ratio",
+    "embed_dim": 384,
+    "img_size": 1792,
+    "lr_size": 28,
+    "ratio": 4,
+    "metrics": {
+      "Average forward pass time": "1035.683667 ms",
+      "Peak GPU memory usage (forward)": "0.00 MB",
+      "GFLOPS": "2148.59",
+      "# Params": "85669632"
+    }
+  }
+]

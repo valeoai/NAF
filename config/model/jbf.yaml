@@ -1,0 +1,5 @@
+_target_: src.model.JBF
+kernel_size: 5
+sigma_color: 0.1
+sigma_spatial: 1.5
+name: jbf

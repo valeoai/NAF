@@ -1,0 +1,18 @@
+defaults:
+  - base
+  - _self_
+  - override dataset: davis
+
+eval:
+  model_ckpt: null 
+  ups_factor: 1
+  n_last_frames: 7  
+  size_mask_neighborhood: 12
+  topk: 5  
+  force_imgnet_norm: False
+
+train_dataloader:
+  batch_size: 1
+
+val_dataloader:
+  batch_size: 1
