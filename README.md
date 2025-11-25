@@ -1,20 +1,33 @@
 # Official Implementation of *NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering.*
 
+
 > [**NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering.**]<br>
 > [Loick Chambon](https://loickch.github.io/),  [Paul Couairon](https://pcouairon.github.io/), [Eloi Zablocki](https://scholar.google.fr/citations?user=dOkbUmEAAAAJ&hl=fr), [Alexandre Boulch](https://boulch.eu/), [Nicolas Thome](https://thome.isir.upmc.fr/), [Matthieu Cord](https://cord.isir.upmc.fr/).<br> Valeo.ai, Sorbonne University, CNRS.<br> 
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2511.18452">
+    <img src="https://img.shields.io/badge/arXiv-2511.18452-b31b1b.svg" alt="arXiv">
+  </a>
+  <a href="https://github.com/valeoai/NAF/stargazers">
+    <img src="https://img.shields.io/github/stars/valeoai/NAF?style=social" alt="GitHub stars">
+  </a>
+</p>
+
+Upsample any Vision Foundation Model features, zero-shot, to high-resolution with **NAF** — *Neighborhood Attention Filtering*.
 
 <table>
   <p align="center">
     <img src="asset/teasing.gif" alt="NAF Demo" width="80%">
-    <a href="https://github.com/valeoai/NAF/releases/download/model/vfm_comparison.mp4">
+    <a href="https://github.com/valeoai/NAF/releases/download/model/teasing.mp4">
       <br><br>
       <strong>▶️ Full quality (here)</strong>
     </a>
   </p>
 </table>
 
-<div align="center">
+And obtain state-of-the-art results on multiple downstream tasks for multiple VFM families, sizes and datasets:
 
+<div align="center">
 <table>
   <thead>
     <tr>
@@ -86,18 +99,18 @@
 import torch
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-model = torch.hub.load("valeoai/NAF", "naf", pretrained=True, device=device)
-model.eval()
+naf = torch.hub.load("valeoai/NAF", "naf", pretrained=True, device=device)
+naf.eval()
 
-# High-resolution image (B,3,H,W)
+# High-resolution image (B, 3, H, W)
 image = ...
-# Low-resolution features (B,C,h,w)
+# Low-resolution features (B, C, h, w)
 lr_features = ...   
 # Desired output size (H_o, W_o)
 target_size = ...                                
 
-# High-resolution features (B,C,H_o,W_o)
-upsampled = model(image, lr_features, target_size)
+# High-resolution features (B, C, H_o, W_o)
+upsampled = naf(image, lr_features, target_size)
 ```
 
 
@@ -213,9 +226,10 @@ Do not hesitate to look and support our previous feature upsampling work:
 If this work is helpful for your research, please consider citing the following BibTeX entry and putting a star on this repository. Feel free to open an issue for any questions.
 
 ```
-@misc{chambon2025naf,
-      title={NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering.}, 
+@misc{chambon2025nafzeroshotfeatureupsampling,
+      title={NAF: Zero-Shot Feature Upsampling via Neighborhood Attention Filtering}, 
       author={Loick Chambon and Paul Couairon and Eloi Zablocki and Alexandre Boulch and Nicolas Thome and Matthieu Cord},
       year={2025},
+      url={https://arxiv.org/abs/2511.18452}, 
 }
 ```
