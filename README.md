@@ -17,7 +17,7 @@ Upsample any Vision Foundation Model features, zero-shot, to high-resolution wit
 
 <table>
   <p align="center">
-    <img src="asset/teasing.gif" alt="NAF Demo" width="80%">
+    <img src="asset/teaser.gif" alt="NAF Demo" width="80%">
     <a href="https://github.com/valeoai/NAF/releases/download/model/teasing.mp4">
       <br><br>
       <strong>▶️ Full quality (here)</strong>
