@@ -8,10 +8,17 @@
   <a href="https://arxiv.org/abs/2511.18452">
     <img src="https://img.shields.io/badge/arXiv-2511.18452-b31b1b.svg" alt="arXiv">
   </a>
+  <a href="https://huggingface.co/papers/2511.18452">
+    <img src="https://img.shields.io/badge/HuggingFace-Paper-ff9900.svg?logo=huggingface" alt="HuggingFace Paper">
+  </a>
+  <a href="https://huggingface.co/spaces/LChambon/NAF">
+    <img src="https://img.shields.io/badge/HuggingFace-Space-ff9900.svg?logo=huggingface" alt="HuggingFace Space">
+  </a>
   <a href="https://github.com/valeoai/NAF/stargazers">
     <img src="https://img.shields.io/github/stars/valeoai/NAF?style=social" alt="GitHub stars">
   </a>
 </p>
+
 
 Upsample any Vision Foundation Model features, zero-shot, to high-resolution with **NAF** — *Neighborhood Attention Filtering*.
 
@@ -116,6 +123,7 @@ upsampled = naf(image, lr_features, target_size)
 
 ## ⚡ News & Updates
 - [ ] Release trained checkpoints for **NAF++**.
+- [x] **[2025-11-31]** Add HuggingFace demo.
 - [x] **[2025-11-25]** NAF has been uploaded on arXiv.
 - [x] **[2025-11-24]** NAF code has been publicly released.
 
